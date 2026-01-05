@@ -26,7 +26,7 @@ if uploaded_file is not None:
         with st.spinner('Analyzing rhythm strip...'):
             try:
                 # This is the Brain
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-1.5-flash-latest')
                 
                 # This is what we ask the AI
                 prompt = """
